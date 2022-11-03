@@ -1,5 +1,10 @@
 from bs4 import BeautifulSoup
 import requests
+import time
+import networkx as nx
+
+def obtener_nombre():
+    pass
 
 def obtener_script_html(link):
     
@@ -31,30 +36,67 @@ def comprobar_entidad(link):
             return True
     return False
 
-def agregar_nodos(dic_nodos,datos,node):
-    set_nuevo_nodo = set()
-    lista_nuevos = []
+def agregar_nodos(dic_nodos,datos,node,lista_nuevos,lista_revisados):
+    
+    if not dic_nodos.get(node,False):
+        dic_nodos[node] = set()
+
     for i in datos:
         try:
             if obtener_links(i):
-                set_nuevo_nodo.add(i.get_text())
+                dic_nodos[node].add(i.get_text())
                 if not(dic_nodos.get(i,False)):
                     dic_nodos[i.get_text()] = {node}
-                    lista_nuevos.append(i.get_text())
-            else:
-                pass
-                #print(i.get_text(), "no una persona")
+                    if i.get_text() not in lista_revisados:
+                        lista_nuevos.append(i.get_text())
+
         except:
             pass
-            #print(i.get_text(), "no funciono el link")
-    dic_nodos[node] = set_nuevo_nodo
-    print(set_nuevo_nodo)
-    print(lista_nuevos)
-    return dic_nodos,lista_nuevos
+    lista_revisados.append(lista_nuevos.pop(0))
 
-cajita = obtener_script_html(link='https://es.wikipedia.org/wiki/Jorge_Oñate')
-datos = limpiar_datos(cajita)
+    return dic_nodos,lista_nuevos,lista_revisados
+
+
+time_initial = time.time()
 dic = {}
-dic,lista_nuevos= agregar_nodos(dic,datos,"Jorge_Oñate")  
+lista_nuevos = ['Joe Biden']
+lista_revisados = []
 
-print(dic.items())
+while len(dic)<=50 and len(lista_nuevos)>0:
+    link = 'https://es.wikipedia.org/wiki/'+lista_nuevos[0]
+    cajita = obtener_script_html(link=link)
+    datos = limpiar_datos(cajita)
+    dic,lista_nuevos,lista_revisados = agregar_nodos(dic,datos,lista_nuevos[0],lista_nuevos,lista_revisados)
+
+
+G = nx.Graph()
+
+G.add_nodes_from(dic.keys())
+
+
+for clave,valor in dic.items():
+    for i in valor:
+        G.add_edge(clave,i)
+
+
+print(G.edges())
+
+print(list(nx.all_simple_paths(G,'Joe Biden','Antonio Villaraigosa')))
+
+tiempo_final = time.time()
+t = round(tiempo_final-time_initial,0)
+t_s = f'{t//360}'
+t = t-(t//360)
+t_s = t_s+f':{t//60}:'
+t = t- (t//60)
+t_s = t_s+f'{t}'
+
+print(f'Tiempo de ejecucion: {tiempo_final-time_initial}')
+print(f'Tiempo de ejecucion en horas: {t_s}')
+print(f'En el diccionario hay {len(dic)} elementos')
+print(f'Nodos revisados: {len(lista_revisados)}')
+print(f'Faltaron {len(lista_nuevos)} nodos nuevos por revisar')
+
+
+print(dic['Joe Biden'])
+

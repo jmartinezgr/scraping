@@ -30,7 +30,7 @@ soup = BeautifulSoup(content,'lxml')
 x = soup.find_all('th')
 
 
-"""
+
 
 link = box.find_all('a') 
 print(len(link))
@@ -40,10 +40,10 @@ for i in link:
     text = i.get_text(strip=True,separator=' ')
     if len(text.split())>1 and len(text.split())<4:
         if text[0] != '[' and not(text[0] in lista_numeros) and text!= 'el original':
-            print(i)
-"""
+            x.append(i)
+
 
 for i in x:
     if i.get_text() == 'Nacimiento':
-        print(True)
+        print(i)
         break
