@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="undirected"><node id="Elvis Presley"/>
+<node id="Ian Gillan"/>
+<node id="Little Richard"/>
+<node id="Ritchie Blackmore"/>
+<node id="Andrew Lloyd Webber"/>
+<node id="Tony Iommi"/>
+<node id="Pete Townshend"/>
+<node id="Tommy Roe"/>
+<node id="Chuck Berry"/>
+<node id="Jerry Lee Lewis"/>
+<node id="Mick Tucker"/>
+<node id="Roger Glover"/>
+<node id="Jon Lord"/>
+<node id="Ian Paice"/>
+<node id="Rod Evans"/>
+<node id="Nick Simper"/>
+<node id="Tim Rice"/>
+<node id="David Coverdale"/>
+<node id="Ronnie James Dio"/>
+<node id="Mark Nauseef"/>
+<node id="Bernie Torme"/>
+<node id="Janick Gers"/>
+<node id="Don Arden"/>
+<node id="Geezer Butler"/>
+<node id="Bill Ward"/>
+<node id="Bev Bevan"/>
+<node id="Tommy Vance"/>
+<node id="Joe Lynn Turner"/>
+<node id="Bryan Adams"/>
+<node id="David Gilmour"/>
+<node id="Roger Taylor"/>
+<node id="Brian May"/>
+<node id="Bruce Dickinson"/>
+<node id="Paul Rodgers"/>
+<node id="Joe Satriani"/>
+<node id="Steve Morse"/>
+<node id="Don Airey"/>
+<node id="Jeff Healey"/>
+<node id="Tigran Sargsyan"/>
+<node id="Geoff Downes"/>
+<node id="Nicko McBrain"/>
+<node id="Mikko Lindström"/>
+<node id="Jason Newsted"/>
+<node id="Priscilla Presley"/>
+<node id="Lisa Marie Presley"/>
+<node id="Sam Phillips"/>
+<node id="Scotty Moore"/>
+<node id="Bill Black"/>
+<node id="Tom Parker"/>
+<node id="Red Foley"/>
+<node id="Johnny Burnette"/>
+<node id="Teresa Brewer"/>
+<node id="Hank Snow"/>
+<node id="Roy Acuff"/>
+<node id="Ernest Tubb"/>
+<node id="Ted Daffan"/>
+<node id="Jimmie Rodgers"/>
+<node id="Jimmie Davis"/>
+<node id="Bob Wills"/>
+<node id="Sister Rosetta Tharpe"/>
+<node id="Arthur Crudup"/>
+<node id="Rufus Thomas"/>
+<node id="B.B. King"/>
+<node id="Bill Monroe"/>
+<node id="Slim Whitman"/>
+<node id="Roy Orbison"/>
+<node id="Bill Haley"/>
+<node id="Floyd Cramer"/>
+<node id="Chet Atkins"/>
+<node id="Carl Perkins"/>
+<node id="Ray Charles"/>
+<node id="Bo Diddley"/>
+<node id="Big Mama Thornton"/>
+<node id="J. Edgar Hoover"/>
+<node id="Ed Sullivan"/>
+<node id="Charles Laughton"/>
+<node id="Glenn Miller"/>
+<node id="Frank Sinatra"/>
+<node id="Dave Marsh"/>
+<node id="Johnny Cash"/>
+<node id="Judy Tyler"/>
+<node id="Greil Marcus"/>
+<node id="Rodolfo Valentino"/>
+<node id="Michael Curtiz"/>
+<node id="Hal Wallis"/>
+<node id="Priscilla Beaulieu"/>
+<node id="Boots Randolph"/>
+<node id="Julie Parrish"/>
+<node id="Mort Shuman"/>
+<node id="Lisa Marie"/>
+<node id="Jim Morrison"/>
+<node id="James Burton"/>
+<node id="Kirk Kerkorian"/>
+<node id="Fats Domino"/>
+<node id="Cassandra Peterson"/>
+<node id="Richard Nixon"/>
+<node id="Paul McCartney"/>
+<node id="Robert Christgau"/>
+<node id="James Brown"/>
+<node id="Linda Thompson"/>
+<node id="Sonny West"/>
+<node id="Howard Hughes"/>
+<node id="Jimmy Carter"/>
+<node id="Junkie XL"/>
+<node id="Mariah Carey"/>
+<node id="Merle Travis"/>
+<node id="Dewey Phillips"/>
+<node id="Jackie Wilson"/>
+<node id="coronel Tom Parker"/>
+<node id="Robert Mitchum"/>
+<node id="Barbra Streisand"/>
+<node id="Natalie Wood"/>
+<node id="Connie Stevens"/>
+<node id="Candice Bergen"/>
+<node id="Cybill Shepherd"/>
+<node id="Al Green"/>
+<node id="Leonard Bernstein"/>
+<node id="Bob Dylan"/>
+<node id="Bing Crosby"/>
+<node id="Ella Fitzgerald"/>
+<node id="Bobby Troup"/>
+<node id="Pat Boone"/>
+<node id="Cyndi Lauper"/>
+<node id="Bruce Willis"/>
+<node id="Demi Moore"/>
+<node id="Michael Jackson"/>
+<node id="Iggy Pop"/>
+<node id="Bootsy Collins"/>
+<node id="Candice Night"/>
+<node id="Screaming Lord Sutch"/>
+<node id="Buddy Holly"/>
+<node id="Duane Eddy"/>
+<node id="Big Jim Sullivan"/>
+<node id="Johann Sebastian Bach"/>
+<node id="Joe Meek"/>
+<node id="Chris Curtis"/>
+<node id="Frank Zappa"/>
+<node id="Phil Lynott"/>
+<node id="Glenn Hughes"/>
+<node id="Tommy Bolin"/>
+<node id="Craig Gruber"/>
+<node id="Cozy Powell"/>
+<edge source="Elvis Presley" target="Ian Gillan"/>
+<edge source="Elvis Presley" target="Priscilla Presley"/>
+<edge source="Elvis Presley" target="Lisa Marie Presley"/>
+<edge source="Elvis Presley" target="Sam Phillips"/>
+<edge source="Elvis Presley" target="Scotty Moore"/>
+<edge source="Elvis Presley" target="Bill Black"/>
+<edge source="Elvis Presley" target="Tom Parker"/>
+<edge source="Elvis Presley" target="Red Foley"/>
+<edge source="Elvis Presley" target="Johnny Burnette"/>
+<edge source="Elvis Presley" target="Teresa Brewer"/>
+<edge source="Elvis Presley" target="Hank Snow"/>
+<edge source="Elvis Presley" target="Roy Acuff"/>
+<edge source="Elvis Presley" target="Ernest Tubb"/>
+<edge source="Elvis Presley" target="Ted Daffan"/>
+<edge source="Elvis Presley" target="Jimmie Rodgers"/>
+<edge source="Elvis Presley" target="Jimmie Davis"/>
+<edge source="Elvis Presley" target="Bob Wills"/>
+<edge source="Elvis Presley" target="Sister Rosetta Tharpe"/>
+<edge source="Elvis Presley" target="Arthur Crudup"/>
+<edge source="Elvis Presley" target="Rufus Thomas"/>
+<edge source="Elvis Presley" target="B.B. King"/>
+<edge source="Elvis Presley" target="Bill Monroe"/>
+<edge source="Elvis Presley" target="Slim Whitman"/>
+<edge source="Elvis Presley" target="Roy Orbison"/>
+<edge source="Elvis Presley" target="Bill Haley"/>
+<edge source="Elvis Presley" target="Floyd Cramer"/>
+<edge source="Elvis Presley" target="Chet Atkins"/>
+<edge source="Elvis Presley" target="Carl Perkins"/>
+<edge source="Elvis Presley" target="Little Richard"/>
+<edge source="Elvis Presley" target="Ray Charles"/>
+<edge source="Elvis Presley" target="Bo Diddley"/>
+<edge source="Elvis Presley" target="Chuck Berry"/>
+<edge source="Elvis Presley" target="Big Mama Thornton"/>
+<edge source="Elvis Presley" target="J. Edgar Hoover"/>
+<edge source="Elvis Presley" target="Ed Sullivan"/>
+<edge source="Elvis Presley" target="Charles Laughton"/>
+<edge source="Elvis Presley" target="Glenn Miller"/>
+<edge source="Elvis Presley" target="Frank Sinatra"/>
+<edge source="Elvis Presley" target="Dave Marsh"/>
+<edge source="Elvis Presley" target="Jerry Lee Lewis"/>
+<edge source="Elvis Presley" target="Johnny Cash"/>
+<edge source="Elvis Presley" target="Judy Tyler"/>
+<edge source="Elvis Presley" target="Greil Marcus"/>
+<edge source="Elvis Presley" target="Rodolfo Valentino"/>
+<edge source="Elvis Presley" target="Michael Curtiz"/>
+<edge source="Elvis Presley" target="Hal Wallis"/>
+<edge source="Elvis Presley" target="Priscilla Beaulieu"/>
+<edge source="Elvis Presley" target="Boots Randolph"/>
+<edge source="Elvis Presley" target="Julie Parrish"/>
+<edge source="Elvis Presley" target="Mort Shuman"/>
+<edge source="Elvis Presley" target="Lisa Marie"/>
+<edge source="Elvis Presley" target="Jim Morrison"/>
+<edge source="Elvis Presley" target="James Burton"/>
+<edge source="Elvis Presley" target="Kirk Kerkorian"/>
+<edge source="Elvis Presley" target="Fats Domino"/>
+<edge source="Elvis Presley" target="Cassandra Peterson"/>
+<edge source="Elvis Presley" target="Richard Nixon"/>
+<edge source="Elvis Presley" target="Paul McCartney"/>
+<edge source="Elvis Presley" target="Robert Christgau"/>
+<edge source="Elvis Presley" target="James Brown"/>
+<edge source="Elvis Presley" target="Linda Thompson"/>
+<edge source="Elvis Presley" target="Sonny West"/>
+<edge source="Elvis Presley" target="Howard Hughes"/>
+<edge source="Elvis Presley" target="Jimmy Carter"/>
+<edge source="Elvis Presley" target="Junkie XL"/>
+<edge source="Elvis Presley" target="Mariah Carey"/>
+<edge source="Elvis Presley" target="Merle Travis"/>
+<edge source="Elvis Presley" target="Dewey Phillips"/>
+<edge source="Elvis Presley" target="Jackie Wilson"/>
+<edge source="Elvis Presley" target="coronel Tom Parker"/>
+<edge source="Elvis Presley" target="Robert Mitchum"/>
+<edge source="Elvis Presley" target="Barbra Streisand"/>
+<edge source="Elvis Presley" target="Natalie Wood"/>
+<edge source="Elvis Presley" target="Connie Stevens"/>
+<edge source="Elvis Presley" target="Candice Bergen"/>
+<edge source="Elvis Presley" target="Cybill Shepherd"/>
+<edge source="Elvis Presley" target="Al Green"/>
+<edge source="Elvis Presley" target="Leonard Bernstein"/>
+<edge source="Elvis Presley" target="Bob Dylan"/>
+<edge source="Elvis Presley" target="Ritchie Blackmore"/>
+<edge source="Ian Gillan" target="Little Richard"/>
+<edge source="Ian Gillan" target="Ritchie Blackmore"/>
+<edge source="Ian Gillan" target="Andrew Lloyd Webber"/>
+<edge source="Ian Gillan" target="Tony Iommi"/>
+<edge source="Ian Gillan" target="Pete Townshend"/>
+<edge source="Ian Gillan" target="Tommy Roe"/>
+<edge source="Ian Gillan" target="Chuck Berry"/>
+<edge source="Ian Gillan" target="Jerry Lee Lewis"/>
+<edge source="Ian Gillan" target="Mick Tucker"/>
+<edge source="Ian Gillan" target="Roger Glover"/>
+<edge source="Ian Gillan" target="Jon Lord"/>
+<edge source="Ian Gillan" target="Ian Paice"/>
+<edge source="Ian Gillan" target="Rod Evans"/>
+<edge source="Ian Gillan" target="Nick Simper"/>
+<edge source="Ian Gillan" target="Tim Rice"/>
+<edge source="Ian Gillan" target="David Coverdale"/>
+<edge source="Ian Gillan" target="Ronnie James Dio"/>
+<edge source="Ian Gillan" target="Mark Nauseef"/>
+<edge source="Ian Gillan" target="Bernie Torme"/>
+<edge source="Ian Gillan" target="Janick Gers"/>
+<edge source="Ian Gillan" target="Don Arden"/>
+<edge source="Ian Gillan" target="Geezer Butler"/>
+<edge source="Ian Gillan" target="Bill Ward"/>
+<edge source="Ian Gillan" target="Bev Bevan"/>
+<edge source="Ian Gillan" target="Tommy Vance"/>
+<edge source="Ian Gillan" target="Joe Lynn Turner"/>
+<edge source="Ian Gillan" target="Bryan Adams"/>
+<edge source="Ian Gillan" target="David Gilmour"/>
+<edge source="Ian Gillan" target="Roger Taylor"/>
+<edge source="Ian Gillan" target="Brian May"/>
+<edge source="Ian Gillan" target="Bruce Dickinson"/>
+<edge source="Ian Gillan" target="Paul Rodgers"/>
+<edge source="Ian Gillan" target="Joe Satriani"/>
+<edge source="Ian Gillan" target="Steve Morse"/>
+<edge source="Ian Gillan" target="Don Airey"/>
+<edge source="Ian Gillan" target="Jeff Healey"/>
+<edge source="Ian Gillan" target="Tigran Sargsyan"/>
+<edge source="Ian Gillan" target="Geoff Downes"/>
+<edge source="Ian Gillan" target="Nicko McBrain"/>
+<edge source="Ian Gillan" target="Mikko Lindström"/>
+<edge source="Ian Gillan" target="Jason Newsted"/>
+<edge source="Little Richard" target="Bing Crosby"/>
+<edge source="Little Richard" target="Ella Fitzgerald"/>
+<edge source="Little Richard" target="Bobby Troup"/>
+<edge source="Little Richard" target="Pat Boone"/>
+<edge source="Little Richard" target="Paul McCartney"/>
+<edge source="Little Richard" target="Cyndi Lauper"/>
+<edge source="Little Richard" target="Bruce Willis"/>
+<edge source="Little Richard" target="Demi Moore"/>
+<edge source="Little Richard" target="Michael Jackson"/>
+<edge source="Little Richard" target="Iggy Pop"/>
+<edge source="Little Richard" target="Bootsy Collins"/>
+<edge source="Ritchie Blackmore" target="Candice Night"/>
+<edge source="Ritchie Blackmore" target="Screaming Lord Sutch"/>
+<edge source="Ritchie Blackmore" target="Buddy Holly"/>
+<edge source="Ritchie Blackmore" target="Duane Eddy"/>
+<edge source="Ritchie Blackmore" target="Bill Haley"/>
+<edge source="Ritchie Blackmore" target="Big Jim Sullivan"/>
+<edge source="Ritchie Blackmore" target="Johann Sebastian Bach"/>
+<edge source="Ritchie Blackmore" target="Joe Meek"/>
+<edge source="Ritchie Blackmore" target="Chris Curtis"/>
+<edge source="Ritchie Blackmore" target="Jon Lord"/>
+<edge source="Ritchie Blackmore" target="Nick Simper"/>
+<edge source="Ritchie Blackmore" target="Rod Evans"/>
+<edge source="Ritchie Blackmore" target="Ian Paice"/>
+<edge source="Ritchie Blackmore" target="Roger Glover"/>
+<edge source="Ritchie Blackmore" target="Frank Zappa"/>
+<edge source="Ritchie Blackmore" target="Phil Lynott"/>
+<edge source="Ritchie Blackmore" target="Paul Rodgers"/>
+<edge source="Ritchie Blackmore" target="Glenn Hughes"/>
+<edge source="Ritchie Blackmore" target="David Coverdale"/>
+<edge source="Ritchie Blackmore" target="Tommy Bolin"/>
+<edge source="Ritchie Blackmore" target="Ronnie James Dio"/>
+<edge source="Ritchie Blackmore" target="Craig Gruber"/>
+<edge source="Ritchie Blackmore" target="Cozy Powell"/>
+</graph></graphml>

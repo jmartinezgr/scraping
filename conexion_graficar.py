@@ -4,6 +4,14 @@ import time
 import networkx as nx
 import matplotlib.pyplot as plt
 
+def guiones_bajos(clave):
+    nuevo_nombre = clave.split()
+    nn = nuevo_nombre[0]
+    for i in range(1,len(nuevo_nombre)):
+        nn+= '_'+nuevo_nombre[i]
+
+    return nn
+
 def normalize(s):
     replacements = (
         ("á", "a"),
@@ -29,10 +37,7 @@ def obtener_nombre():
                 except:
                     print('Este link no existe en wikipedia')
             else:
-                nuevo_nombre = clave.split()
-                nn = nuevo_nombre[0]
-                for i in range(1,len(nuevo_nombre)):
-                    nn+= '_'+nuevo_nombre[i]
+                nn = guiones_bajos(clave=clave)
                 try:
                     if comprobar_entidad('https://es.wikipedia.org/wiki/'+nn):
                         return clave
@@ -95,7 +100,9 @@ def agregar_nodos(dic_nodos,datos,node,lista_nuevos,lista_revisados,persona2,enc
 
 #Inicia el algoritmo
 
+print("*** Vamos a ingresar la persona 1 ***")
 persona1 = normalize(obtener_nombre())
+print('***Vamos a ingresar a la persona 2 ***')
 persona2 = normalize(obtener_nombre())
 
 print('n/ Empezando la busqueda .. ... .... ')
@@ -116,13 +123,14 @@ while len(dic)<=150 and len(lista_nuevos)>0 and encontrar == False:
 
 #print(dic.edges())
 
-for i in range(len(lista_nuevos)):
-    link = 'https://es.wikipedia.org/wiki/'+lista_nuevos[0]
-    cajita = obtener_script_html(link=link)
-    datos = limpiar_datos(cajita)
-    dic,lista_nuevos,lista_revisados,encontrar = agregar_nodos(dic,datos,lista_nuevos[0],lista_nuevos,lista_revisados,persona2,encontrar)
-    if encontrar == True:
-        break
+if not encontrar:
+    for i in range(len(lista_nuevos)):
+        link = 'https://es.wikipedia.org/wiki/'+lista_nuevos[0]
+        cajita = obtener_script_html(link=link)
+        datos = limpiar_datos(cajita)
+        dic,lista_nuevos,lista_revisados,encontrar = agregar_nodos(dic,datos,lista_nuevos[0],lista_nuevos,lista_revisados,persona2,encontrar)
+        if encontrar == True:
+            break
 
 for j in dic.edges():
     print(f"Relacion: {j}")
@@ -136,14 +144,34 @@ if encontrar:
 else:
     print('Relacion no encontrada')
 
+
 tiempo_final = time.time()
 #Calculo del tiempo en formato hh:mm:ss
+
 t = round(tiempo_final-time_initial,0)
 t_s = f'{t//3600}'
 t = t-((t//3600)*3600)
 t_s = t_s+f':{t//60}:'
 t = t-((t//60)*60)
 t_s = t_s+f'{t}'
+
+
+
+#Dibujar un gráfico no dirigido
+nx.draw(dic, with_labels=True, font_weight='bold')
+plt.show()
+
+import os
+import errno
+try:
+    os.mkdir(f"/home/juan/Escritorio/Mycodes/scraping/pruebas/{guiones_bajos(persona1)}-{guiones_bajos(persona2)}")
+except OSError as e:
+    if e.errno != errno.EEXIST:
+        raise
+
+
+# guardar grafo
+nx.write_graphml(dic, f"/home/juan/Escritorio/Mycodes/scraping/pruebas/{guiones_bajos(persona1)}-{guiones_bajos(persona2)}/{guiones_bajos(persona1)}_into_{guiones_bajos(persona2)}.graphml")
 
 print(f'Tiempo de ejecucion: {tiempo_final-time_initial}')
 print(f'Tiempo de ejecucion en horas: {t_s}')

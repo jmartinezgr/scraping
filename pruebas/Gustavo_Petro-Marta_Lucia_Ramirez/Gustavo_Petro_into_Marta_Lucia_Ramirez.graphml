@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="undirected"><node id="Francia Marquez"/>
+<node id="Gustavo Petro"/>
+<node id="Ivan Duque"/>
+<node id="Maria Mercedes Maldonado"/>
+<node id="Enrique Peñalosa"/>
+<node id="Clara Lopez Obregon"/>
+<node id="Rafael Pardo"/>
+<node id="Veronica Alcocer"/>
+<node id="Rodolfo Hernandez"/>
+<node id="Gabriel Garcia Marquez"/>
+<node id="Misael Pastrana"/>
+<node id="Gustavo Rojas Pinilla"/>
+<node id="Carlos Pizarro"/>
+<node id="Carlos Pizarro Leongomez"/>
+<node id="Virgilio Barco"/>
+<node id="Hugo Chavez"/>
+<node id="Ernesto Samper"/>
+<node id="Antonio Navarro Wolff"/>
+<node id="Luis Camilo Osorio"/>
+<node id="Carlos Castaño"/>
+<node id="Edward Kennedy"/>
+<node id="Luis Fernando Almario"/>
+<node id="Carlos Gaviria Diaz"/>
+<node id="Alvaro Uribe"/>
+<node id="Enilse Lopez"/>
+<node id="Alvaro Uribe Velez"/>
+<node id="Fabio Ochoa"/>
+<node id="Lucho Garzon"/>
+<node id="Maria Emma Mejia"/>
+<node id="Carlos Gaviria"/>
+<node id="Clara Lopez"/>
+<node id="Juan Manuel Santos"/>
+<node id="Gina Parody"/>
+<node id="Miguel Gomez Martinez"/>
+<node id="Antanas Mockus"/>
+<node id="Claudia Lopez"/>
+<node id="Camilo Romero"/>
+<node id="Arelis Uriana"/>
+<node id="Rodriguez Zapatero"/>
+<node id="Pepe Mujica"/>
+<node id="Angela Robledo"/>
+<node id="Hollman Morris"/>
+<node id="Nicolas Maduro"/>
+<node id="Evo Morales"/>
+<node id="Jorge Ramos"/>
+<node id="Gabriel Boric"/>
+<node id="Pedro Castillo"/>
+<node id="Juan Guaido"/>
+<node id="Noel Petro"/>
+<node id="Alejandro Ordoñez"/>
+<node id="Yamid Amat"/>
+<node id="Nestor Humberto Martinez"/>
+<node id="Paloma Valencia"/>
+<node id="Simon Velez"/>
+<node id="Fernando Ruiz Gomez"/>
+<node id="Federico Gutierrez"/>
+<node id="Catalina Ortiz Lalinde"/>
+<node id="Jorge Enrique Robledo"/>
+<node id="Francia Márquez"/>
+<node id="Marta Lucia Ramirez"/>
+<edge source="Francia Marquez" target="Gustavo Petro"/>
+<edge source="Gustavo Petro" target="Ivan Duque"/>
+<edge source="Gustavo Petro" target="Maria Mercedes Maldonado"/>
+<edge source="Gustavo Petro" target="Enrique Peñalosa"/>
+<edge source="Gustavo Petro" target="Clara Lopez Obregon"/>
+<edge source="Gustavo Petro" target="Rafael Pardo"/>
+<edge source="Gustavo Petro" target="Veronica Alcocer"/>
+<edge source="Gustavo Petro" target="Rodolfo Hernandez"/>
+<edge source="Gustavo Petro" target="Gabriel Garcia Marquez"/>
+<edge source="Gustavo Petro" target="Misael Pastrana"/>
+<edge source="Gustavo Petro" target="Gustavo Rojas Pinilla"/>
+<edge source="Gustavo Petro" target="Carlos Pizarro"/>
+<edge source="Gustavo Petro" target="Carlos Pizarro Leongomez"/>
+<edge source="Gustavo Petro" target="Virgilio Barco"/>
+<edge source="Gustavo Petro" target="Hugo Chavez"/>
+<edge source="Gustavo Petro" target="Ernesto Samper"/>
+<edge source="Gustavo Petro" target="Antonio Navarro Wolff"/>
+<edge source="Gustavo Petro" target="Luis Camilo Osorio"/>
+<edge source="Gustavo Petro" target="Carlos Castaño"/>
+<edge source="Gustavo Petro" target="Edward Kennedy"/>
+<edge source="Gustavo Petro" target="Luis Fernando Almario"/>
+<edge source="Gustavo Petro" target="Carlos Gaviria Diaz"/>
+<edge source="Gustavo Petro" target="Alvaro Uribe"/>
+<edge source="Gustavo Petro" target="Enilse Lopez"/>
+<edge source="Gustavo Petro" target="Alvaro Uribe Velez"/>
+<edge source="Gustavo Petro" target="Fabio Ochoa"/>
+<edge source="Gustavo Petro" target="Lucho Garzon"/>
+<edge source="Gustavo Petro" target="Maria Emma Mejia"/>
+<edge source="Gustavo Petro" target="Carlos Gaviria"/>
+<edge source="Gustavo Petro" target="Clara Lopez"/>
+<edge source="Gustavo Petro" target="Juan Manuel Santos"/>
+<edge source="Gustavo Petro" target="Gina Parody"/>
+<edge source="Gustavo Petro" target="Miguel Gomez Martinez"/>
+<edge source="Gustavo Petro" target="Antanas Mockus"/>
+<edge source="Gustavo Petro" target="Claudia Lopez"/>
+<edge source="Gustavo Petro" target="Camilo Romero"/>
+<edge source="Gustavo Petro" target="Arelis Uriana"/>
+<edge source="Gustavo Petro" target="Rodriguez Zapatero"/>
+<edge source="Gustavo Petro" target="Pepe Mujica"/>
+<edge source="Gustavo Petro" target="Angela Robledo"/>
+<edge source="Gustavo Petro" target="Hollman Morris"/>
+<edge source="Gustavo Petro" target="Nicolas Maduro"/>
+<edge source="Gustavo Petro" target="Evo Morales"/>
+<edge source="Gustavo Petro" target="Jorge Ramos"/>
+<edge source="Gustavo Petro" target="Gabriel Boric"/>
+<edge source="Gustavo Petro" target="Pedro Castillo"/>
+<edge source="Gustavo Petro" target="Juan Guaido"/>
+<edge source="Gustavo Petro" target="Noel Petro"/>
+<edge source="Gustavo Petro" target="Alejandro Ordoñez"/>
+<edge source="Gustavo Petro" target="Yamid Amat"/>
+<edge source="Gustavo Petro" target="Nestor Humberto Martinez"/>
+<edge source="Gustavo Petro" target="Paloma Valencia"/>
+<edge source="Gustavo Petro" target="Simon Velez"/>
+<edge source="Gustavo Petro" target="Fernando Ruiz Gomez"/>
+<edge source="Gustavo Petro" target="Federico Gutierrez"/>
+<edge source="Gustavo Petro" target="Catalina Ortiz Lalinde"/>
+<edge source="Gustavo Petro" target="Jorge Enrique Robledo"/>
+<edge source="Gustavo Petro" target="Francia Márquez"/>
+<edge source="Francia Márquez" target="Marta Lucia Ramirez"/>
+</graph></graphml>
