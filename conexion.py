@@ -4,6 +4,13 @@ import time
 import networkx as nx
 import matplotlib.pyplot as plt
 
+def segundos_a_segundos_minutos_y_horas(segundos):
+    horas = int(segundos / 60 / 60)
+    segundos -= horas*60*60
+    minutos = int(segundos/60)
+    segundos -= minutos*60
+    return f"{horas:02d}:{minutos:02d}:{segundos:02d}"
+
 def normalize(s):
     replacements = (
         ("á", "a"),
@@ -80,7 +87,7 @@ def agregar_nodos(dic_nodos,datos,node,lista_nuevos,lista_revisados,persona2,enc
                 dic_nodos.add_node(var)
                 dic_nodos.add_edge(node,var)
                 #print(node,"-",var)
-                if i.get_text() not in lista_revisados:
+                if not(i.get_text() in lista_nuevos):
                     lista_nuevos.append(i.get_text())
                 
                 if persona2 in dic_nodos.nodes():
@@ -89,6 +96,7 @@ def agregar_nodos(dic_nodos,datos,node,lista_nuevos,lista_revisados,persona2,enc
             
         except:
             pass
+        
     lista_revisados.append(lista_nuevos.pop(0))
 
     return dic_nodos,lista_nuevos,lista_revisados,encontrar
@@ -98,7 +106,7 @@ def agregar_nodos(dic_nodos,datos,node,lista_nuevos,lista_revisados,persona2,enc
 persona1 = normalize(obtener_nombre())
 persona2 = normalize(obtener_nombre())
 
-print('n/ Empezando la busqueda .. ... .... ')
+print('*** Empezando la busqueda ***')
 
 encontrar = False
 
@@ -115,14 +123,14 @@ while len(dic)<=150 and len(lista_nuevos)>0 and encontrar == False:
 
 
 #print(dic.edges())
-
-for i in range(len(lista_nuevos)):
-    link = 'https://es.wikipedia.org/wiki/'+lista_nuevos[0]
-    cajita = obtener_script_html(link=link)
-    datos = limpiar_datos(cajita)
-    dic,lista_nuevos,lista_revisados,encontrar = agregar_nodos(dic,datos,lista_nuevos[0],lista_nuevos,lista_revisados,persona2,encontrar)
-    if encontrar == True:
-        break
+if not encontrar:
+    for i in range(len(lista_nuevos)):
+        link = 'https://es.wikipedia.org/wiki/'+lista_nuevos[0]
+        cajita = obtener_script_html(link=link)
+        datos = limpiar_datos(cajita)
+        dic,lista_nuevos,lista_revisados,encontrar = agregar_nodos(dic,datos,lista_nuevos[0],lista_nuevos,lista_revisados,persona2,encontrar)
+        if encontrar == True:
+            break
 
 for j in dic.edges():
     print(f"Relacion: {j}")
@@ -139,11 +147,7 @@ else:
 tiempo_final = time.time()
 #Calculo del tiempo en formato hh:mm:ss
 t = round(tiempo_final-time_initial,0)
-t_s = f'{t//3600}'
-t = t-((t//3600)*3600)
-t_s = t_s+f':{t//60}:'
-t = t-((t//60)*60)
-t_s = t_s+f'{t}'
+#t_s = segundos_a_segundos_minutos_y_horas(t)
 
 print(f'Tiempo de ejecucion: {tiempo_final-time_initial}')
 print(f'Tiempo de ejecucion en horas: {t_s}')
